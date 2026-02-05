@@ -1,6 +1,6 @@
 # Weather-App
 
-This app uses a simple weather API toi provide weather details.
+This app uses a simple weather API to provide weather details.
 
 #V-1
 
