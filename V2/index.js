@@ -1,3 +1,5 @@
+// Function to get weather data using city name
+
 async function getWeatherDataUsingCity(cityName){
     const requestUrl = `https://goweather.xyz/v2/weather/${cityName}`;
     
@@ -16,6 +18,8 @@ async function getWeatherDataUsingCity(cityName){
     const data = await fetchData();
     return data;
 }
+
+// Function to get weather data using IP address
 
 async function getWeatherDataUsingIP(){
     let city = null;
